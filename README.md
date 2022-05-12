@@ -1,7 +1,7 @@
 
 # Git e Github
 
-Repositório utilizado para armazenar intruções relacionadas ao Git e também a plataforma Github.
+Repositório utilizado para armazenar instruções relacionadas ao Git e também a plataforma Github.
 
 ## Autor
 
