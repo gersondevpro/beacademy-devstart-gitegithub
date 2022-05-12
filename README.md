@@ -14,6 +14,7 @@ Repositório utilizado para armazenar intruções relacionadas ao Git e também 
 #### Comandos utilizados no Git Bash ou no 'Prompt de Comando':
 | Código   | Descrição                           |
 | :---------- | :---------------------------------- |
+| `$ clear`   | limpa a tela de comando do 'prompt de comando' ou Git Bash |
 | `$ git --version`   | identifica a versão do Git instalado |
 | `$ git config --global user.name "nome do usuário"`   | identificará o autor de todas as criações e alterações através do Git |
 | `$ git config --global user.email "email do usuário"`   | identificará o e-mail do autor |
@@ -24,6 +25,12 @@ Repositório utilizado para armazenar intruções relacionadas ao Git e também 
 | `$ git rm --cached <file>`   | utilizado para desfazer uma ação que já foi preparada para ser commitada |
 | `$ git commit -m "mensagem"`   | utilizado para registrar alterações em projetos; |
 | `$ git log`   | utilizado para mostrar o histórico dos commits |
+| `$ git branch`   | utilizado para mostrar as branchs locais. A branch que você estiver no momento estará destacada. |
+| `$ git branch "nome_da_branch"`   | utilizado para criar uma nova branch |
+| `$ git checkout "nome_da_branch"`   | navega de um branch para o outro  |
+| `$ git checkout -b "nome_da_branch"`   | utilizado para criar uma nova branch, navegando automaticamente para ela  |
+| `$ git branch -d "nome_da_branch"`   | remove a branch em questão |
+| `$ git merge "nome_da_branch"`   | Unifica as alterações entre duas branches. A branch descrita no código será enviada para dentro da branch que estiver selecionada no momento. |
 
 ### Observações importantes:
-'Branches' -> são ramificações dentro do sistema. Sempre exisitirá uma ramificação principal, podendo ter também ramificações auxiliares.
+'Branchs' -> são ramificações dentro do sistema. Sempre exisitirá uma ramificação principal, podendo ter também ramificações auxiliares.
